@@ -15,8 +15,7 @@ class Solution {
                 }
             }
         }
-		return nums;
+        throw new IllegalArgumentException("No two-sum solution");
     }
 }
 // @lc code=end
-

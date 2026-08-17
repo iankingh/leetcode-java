@@ -10,7 +10,7 @@ This table indexes only the files currently in this repository; it does not clai
 | --- | --- | --- | --- |
 | 1. Two Sum | [`1.two-sum.java`](1.two-sum.java) | `twoSum` | Nested index scan |
 | 2. Add Two Numbers | [`2.add-two-numbers.java`](2.add-two-numbers.java) | `addTwoNumbers` | Linked-list traversal with carry |
-| 50. Pow(x, n) | [`50.pow-x-n.java`](50.pow-x-n.java) | `myPow` | Repeated multiplication |
+| 50. Pow(x, n) | [`50.pow-x-n.java`](50.pow-x-n.java) | `myPow` | Binary exponentiation with a widened exponent |
 | 66. Plus One | [`66.plus-one.java`](66.plus-one.java) | `plusOne` | Right-to-left carry handling |
 | 383. Ransom Note | [`383.ransom-note.java`](383.ransom-note.java) | `canConstruct` | Character counts in a `HashMap` |
 | 412. Fizz Buzz | [`412.fizz-buzz.java`](412.fizz-buzz.java) | `fizzBuzz` | Divisibility checks |

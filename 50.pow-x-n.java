@@ -6,22 +6,24 @@
 
 // @lc code=start
 class Solution {
-    // 暴力解法
     public double myPow(double x, int n) {
-        double res = 1;
-        boolean negative = false;
-        if (n < 0) {
-            negative = true;
-            n *= -1;
-        }
-        for (int i = 0; i < n; i++) {
-            res *= x;
-        }
-        if (negative) {
-            res = 1 / res;
-        }
-        return res;
+        long exponent = n;
 
+        if (exponent < 0) {
+            x = 1 / x;
+            exponent = -exponent;
+        }
+
+        double result = 1;
+        while (exponent > 0) {
+            if ((exponent & 1) == 1) {
+                result *= x;
+            }
+            x *= x;
+            exponent >>= 1;
+        }
+
+        return result;
     }
 }
 // @lc code=end
