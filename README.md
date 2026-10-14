@@ -1,4 +1,4 @@
-# Leetcode-training
+# leetcode-java
 
 Java submission snippets for LeetCode practice. Each file keeps the LeetCode problem number/title header and defines the method expected by the online judge.
 
